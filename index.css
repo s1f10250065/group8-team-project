@@ -1,0 +1,21 @@
+.sidemenu{
+   float: left;
+}
+.sidemenu ul{
+    padding: 0px 50px 2500px 10px;
+
+}
+.sidemenu li{
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #a3bfff;
+    display: block;
+    border-right: solid 5px #4997f6;
+}
+h1{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #3c71ed;
+    text-align: center;
+}
