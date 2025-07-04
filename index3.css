@@ -1,24 +1,42 @@
-.sidemenu{
-   float: left;
+.flex-container{
+    display: flex;
+    
+}
+.center{
+    text-align: center;
 }
 .sidemenu ul{
-    padding: 0px 50px 2500px 10px;
-
+    padding-right: 15px;
+    padding-left: 5px;
 }
 .sidemenu li{
     font-size: 25px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px 5px 5px 0px;
+    padding: 10px 0px 10px 10px;
     background-color: #a3bfff;
     display: block;
     border-right: solid 5px #4997f6;
 }
+.sidemenu h2{
+    margin-left: 10px;
+}
 h1{
     padding: 10px;
     color: #ffffff;
-    background-color: #3c71ed;
+    background-color: #0f358d;
     text-align: center;
 }
 p{
     font-size: 20px;
+    margin-left: 10px;
+}
+.ranking h2{
+    background-color: #eeeeee;
+    padding: 5px;
+    border-left: solid 5px #cccccc;
+}
+span{
+    margin-left: 10px;
+    color: #ff0000;
+    text-decoration: underline;
 }
